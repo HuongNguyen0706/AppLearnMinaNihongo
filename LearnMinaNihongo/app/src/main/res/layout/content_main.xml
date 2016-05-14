@@ -11,7 +11,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".activity.activity.activity.MainActivity"
+    tools:context=".activity.activity.activity.Activity.MainActivity"
     tools:showIn="@layout/activity_main"
     >
 
@@ -23,13 +23,16 @@
         <ImageButton
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:background="@mipmap/ic_bangchucai" />
+            android:layout_marginLeft="12dp"
+            android:background="@mipmap/ic_bangchucai"
+            android:id="@+id/btnAlphabet"/>
 
         <ImageButton
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_marginLeft="90dp"
-            android:background="@mipmap/ic_teacher" />
+            android:background="@mipmap/ic_teacher"
+            android:id="@+id/btnMinna"/>
 
     </LinearLayout>
 
@@ -46,6 +49,7 @@
             android:text="Bang chu cai"
             android:textSize="20dp"
             android:textColor="#ffffff"
+            android:layout_marginLeft="12dp"
             android:textStyle="bold" />
 
         <TextView
@@ -69,13 +73,16 @@
         <ImageButton
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:background="@mipmap/ic_minigame" />
+            android:background="@mipmap/ic_minigame"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/btnMiniGame"/>
 
         <ImageButton
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_marginLeft="90dp"
-            android:background="@mipmap/ic_dialog" />
+            android:background="@mipmap/ic_dialog"
+            android:id="@+id/btnDialogJP"/>
 
     </LinearLayout>
 
@@ -90,6 +97,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="MiniGame"
+            android:layout_marginLeft="12dp"
             android:textSize="20sp"
             android:textColor="#ffffff"
             android:textStyle="bold" />
@@ -106,17 +114,20 @@
             android:textStyle="bold" />
 
     </LinearLayout>
-
-    <FrameLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
         <ImageButton
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
             android:layout_gravity="center"
-            android:layout_marginTop="70dp"
-            android:background="@mipmap/ic_ex" />
-    </FrameLayout>
+            android:layout_marginTop="0dp"
+            android:background="@mipmap/ic_ex"
+            android:id="@+id/btnExit"
+        />
+    </LinearLayout>
 
 
 </LinearLayout>
