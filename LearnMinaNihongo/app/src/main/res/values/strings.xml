@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LearnMinaNihongo</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">action_search</string>
+    <string name="title_activity_mina">MinaActivity</string>
+    <string name="title_activity_mini_game">MiniGameActivity</string>
+    <string name="title_activity_dialog">DialogActivity</string>
+    <string name="title_activity_alphabet">AlphabetActivity</string>
+</resources>
