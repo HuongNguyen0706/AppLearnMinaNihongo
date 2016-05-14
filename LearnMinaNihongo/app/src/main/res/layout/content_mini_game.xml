@@ -27,12 +27,15 @@
                 android:id="@+id/button_1_1"
                 android:layout_margin="5dp"
                 android:text="日本"
+                android:textSize="0dp"
                 />
             <Button
                 android:layout_width="110dp"
                 android:layout_height="match_parent"
                 android:background="@drawable/custom_button_kanji"
                 android:id="@+id/button_1_2"
+                android:text="犬"
+                android:textSize="0dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
 
@@ -41,6 +44,8 @@
                 android:layout_width="110dp"
                 android:layout_height="match_parent"
                 android:background="@drawable/custom_button_kanji"
+                android:text="飲み物"
+                android:textSize="0dp"
                 android:id="@+id/button_1_3"
                 android:layout_margin="5dp"
                 />
@@ -54,6 +59,8 @@
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button_kanji"
+                android:text="猫no"
+                android:textSize="0dp"
                 android:id="@+id/button_2_1"/>
             <Button
                 android:layout_width="110dp"
@@ -61,11 +68,15 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/custom_button_kanji"
+                android:text="日本go"
+                android:textSize="0dp"
                 android:id="@+id/button_2_2"/>
             <Button
                 android:layout_width="110dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
+                android:text="桜no"
+                android:textSize="0dp"
                 android:background="@drawable/custom_button_kanji"
                 android:id="@+id/button_2_3"/>
         </LinearLayout>
@@ -78,18 +89,24 @@
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button_kanji"
+                android:text="日本no"
+                android:textSize="0dp"
                 android:id="@+id/button_3_1"/>
             <Button
                 android:layout_width="110dp"
                 android:layout_height="match_parent"
                 android:background="@drawable/custom_button_kanji"
                 android:id="@+id/button_3_2"
+                android:text="猫"
+                android:textSize="0dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"/>
             <Button
                 android:layout_width="110dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
+                android:text="桜"
+                android:textSize="0dp"
                 android:background="@drawable/custom_button_kanji"
                 android:id="@+id/button_3_3"/>
         </LinearLayout>
@@ -109,12 +126,14 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
                 android:id="@+id/tvQuestion"
-                android:background="@drawable/custom_textview_question_kanji_game"/>
+                android:background="@drawable/kana"
+                android:gravity="center"
+                />
             <ImageButton
                 android:layout_width="110dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
-                android:id="@+id/btnExit"
+                android:id="@+id/btnReset"
                 android:background="@drawable/reset"                />
         </LinearLayout>
 
